@@ -1,0 +1,61 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: pink;
+    border: 1px solid black;
+    width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.position{
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+    top: 30px;
+    left: px;
+}
+
+.absolute{
+    position: absolute
+}
+
+.contenedorRosa{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 30px;
+    position: relative; 
+}
+
+.cajaMorada{
+    background-color: brown;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;;
+}
+
+.iconowsp{
+ width: 55px;
+ height: 55px;
+ line-height: 55px;
+ bottom: 30px;
+ right: 30px;
+ position: fixed;
+
+
+}
